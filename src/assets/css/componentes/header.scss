@@ -1,0 +1,23 @@
+.header{
+    background: $dark_brown;
+    text-align: center;
+    padding: 10px 0;
+}
+.logo{
+    max-width: 100%;
+}
+.link_menu{
+    color: $yellow;
+    text-decoration: none;
+    padding: 5%;
+    transition: all .3s linear;
+    &:hover{
+        transform: translateY(-3px);
+        color:darken($yellow, 20);
+    }
+}
+#menu_movil{
+    .link_menu{
+        padding: 1%;
+    }
+}

@@ -1,0 +1,11 @@
+
+$black:#000;
+$white:#fff;
+$dark_brown:#231402;
+$yellow:#ebc153;
+$background:#fff4de;
+$beige:#ddd4c5;
+//gradientes
+$light:linear-gradient(to bottom, $dark_brown 0%,rgba($dark_brown , 0) 90%);
+$yellow_to_Dark:linear-gradient(to bottom, $yellow 0%,darken($yellow,42));
+

@@ -1,0 +1,7 @@
+.btnYellow{
+    background: $yellow;
+    border: 1px inset $yellow!important;
+    &:hover{
+        background: $yellow_to_Dark;
+    }
+}

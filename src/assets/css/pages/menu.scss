@@ -1,0 +1,47 @@
+.img_products{
+    max-width: 45%;
+}
+
+.pan_de_ajo_bg,.focaccia ,.calzone,.pizzas{
+    background-image: url('../../img/pan_ajo_bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 45vh;
+}
+.focaccia{
+    background-image: url('../../img/focaccia_bg.webp');
+}
+.calzone{
+    background-image: url('../../img/calzone_bg.webp');
+}
+.pizzas{
+    background-image: url('../../img/pizza_bg.webp');
+}
+.bg_beige_trans{
+    background: rgba($beige, .8);
+    transition: all .5s ease;
+    &:hover{
+        transform: scale(1.05);
+        background: rgba($beige, 1);
+    }
+}
+.pizzas{
+    .bg_beige_trans{
+        min-height: 690px;
+    }
+}
+.calzone{
+    .bg_beige_trans{
+        min-height: 590px;
+    }
+}
+.pan_de_ajo_bg{
+    .bg_beige_trans{
+        min-height: 410px;
+    }
+}
+.border_derecha{
+    border-right: 2px solid $dark_brown;
+}

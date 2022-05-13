@@ -1,0 +1,13 @@
+.preparacion, .calzone_home{
+    padding: 25px 0;
+    background-image: url('../../img/preparacion_bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: $white;
+}
+.calzone_home{
+    background-image: url('../../img/calzone_bg.webp');
+    background-attachment: fixed;
+    color: $dark_brown;
+}

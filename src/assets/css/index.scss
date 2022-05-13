@@ -1,0 +1,54 @@
+body {
+    background-color: $background;
+    font-size: 1.3rem;
+    color: $dark_brown;
+}
+
+.loader {
+    background-image: url('../img/loader.gif');
+    background-size: 5%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .loader {
+        background-image: url('../img/loader.gif');
+        background-size: 50%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+    }
+}
+
+//bg
+.p_bg_trans {
+    background: rgba($beige, .5);
+    padding: 20px;
+    margin: 5% 0;
+}
+
+.bg_brown {
+    background:$dark_brown;
+}
+
+.bg_brown_trans {
+    background: rgba($dark_brown, .5);
+}
+
+.span_yellow {
+    width: 100%;
+    height: 5px;
+    background: $yellow;
+}
+
+.contacto {
+    min-height: 80vh;
+    background-image: url('../img/contacto.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,13 @@
+@font-face {
+    font-family:madina,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    src:url('../../fuentes/Madina.ttf') ;
+  }
+  .fuente_especial{
+      font-family: madina;
+  }
+  .yellow_font{
+      color: $yellow;
+  }
+  .text_shadow{
+    text-shadow: 1px 1px 1px $black,-1px -1px 1px $black,3px 3px 5px $black,-3px -3px 5px $black;
+  }
